@@ -1,0 +1,33 @@
+# Git
+.git
+.gitignore
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.venv
+venv/
+ENV/
+env/
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Docker & CI
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# Environment files (секреты лучше не запекать в образ, а передавать через docker-compose)
+.env
+
+# Documentation & Local data
+docs.json
+*.csv
+data/
+README.md
